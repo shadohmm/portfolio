@@ -1,0 +1,51 @@
+.projects-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-section h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .project-header h3 {
+    font-size: 1.2em;
+    color: #343a40;
+    margin: 0;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  .project p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #495057;
+  }
+  
