@@ -1,4 +1,4 @@
-.projects-section {
+/* .projects-section {
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 8px;
@@ -48,4 +48,101 @@
     line-height: 1.5;
     color: #495057;
   }
+   */
+
+   /* ******************************************************** */
+
+/* certificate.component.css */
+.container {
+  background-color: #1a1a1a;
+  height: 800px;
+}
+.project {
+  top: 2%;
+  background-color: #101010;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex; /* Use flexbox for side-by-side layout */
+  gap: 20px; /* Add some space between the content and the image */  
+}
+
+
+.project-content {
+  flex: 2; /* Make content take up more space */
+}
+
+.project-images {
+  flex: 1; /* Make images take up less space */
+  display: flex; /* Align image vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+
+  .project-header {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .project-header h1 {
+    font-size: 2rem;
+    color: #00ff00;
+    margin-right: 10px;
+  }
+  
+  .project-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .project-description {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .project-stack {
+    margin: 10px 0;
+  }
+  
+  .project-stack span {
+    font-weight: bold;
+  }
+  
+  .project-stack ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .project-stack li {
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .project-links {
+    margin: 10px 0;
+  }
+  
+  .project-links a {
+    text-decoration: none;
+    color: #1a1a1a;;
+    background-color:#00ff00 ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .project-image {
+    width: 100%; /* Allow the image to scale within its container */
+    max-width: 300px;
+    height: auto;
+    margin: 0; /* Remove top margin to align */
+}
+
+.project-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
   

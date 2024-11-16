@@ -1,25 +1,25 @@
 .experience-section {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #1a1a1a;
+    padding: 150px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .company-info h2 {
     font-size: 1.5em;
-    color: #007bff;
+    color: #00ff00;
   }
   
   .company-info h3 {
     margin-top: 5px;
     font-size: 1.2em;
     font-weight: bold;
-    color: #343a40;
+    color: #fff;
   }
   
   .date-range {
     font-size: 0.9em;
-    color: #6c757d;
+    color: #fff;
   }
   
   .responsibilities ul {
@@ -33,13 +33,13 @@
     padding-left: 15px;
     font-size: 1em;
     line-height: 1.5;
-    color: #495057;
+    color: #fff;
     position: relative;
   }
   
   .responsibilities li::before {
     content: '•';
-    color: #007bff;
+    color: #00ff00;
     font-weight: bold;
     position: absolute;
     left: 0;
