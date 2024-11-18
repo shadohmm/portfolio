@@ -21,8 +21,8 @@ export class ProjectsComponent {
     {
       id: '02',
       title: 'SMART STREET LIGHT SYSTEM',
-      description: `A project utilizing RFID technology for vehicle identification on streets, automatically activating 
-      streetlights upon detecting a vehicle.`,
+      description: `The Smart Street Light Management System is an innovative IoT-based solution designed to improve energy efficiency and enhance road safety. By utilizing RFID (Radio Frequency Identification) technology along with Arduino programming, the system detects vehicles on the street and automatically activates streetlights only when needed.
+       This automation minimizes energy consumption while ensuring sufficient illumination for vehicles and pedestrians.`,
       techStack: [
         'RFID (Radio Frequency Identification)',
         'IoT',
@@ -32,7 +32,7 @@ export class ProjectsComponent {
         'Object Detection',
       ],
       githubLink: 'https://github.com/shadohmm/Smart-Street-Light-Management-System',
-      image: '../../../assets/images/SmartStreetLight.png',
+      image: '../../../assets/images/SSLMS.png',
       altText: 'Smart Street Light System',
     },
   ];

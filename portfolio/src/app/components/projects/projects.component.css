@@ -55,7 +55,8 @@
 /* certificate.component.css */
 .container {
   background-color: #1a1a1a;
-  height: 800px;
+  height: 100vh;
+  width: 100%;
 }
 .project {
   top: 2%;
@@ -145,4 +146,4 @@
     max-width: 100%;
     border-radius: 10px;
 }
-  
+/* ****************************************************************** */
