@@ -54,7 +54,8 @@ nav a {
 
 .hero-text {
     max-width: 50%;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 80px;
 }
 
 .role {
@@ -98,15 +99,20 @@ p {
 
 .circle {
     position: absolute;
-    top: 40%; /* Adjust this value to move the circle vertically */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
-    background-color: #101010;
-    border-radius: 50%;
-    z-index: 0;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -45%); /* Move the element back by 50% of its own width and height */
+    width: 600px;
+    height: 600px;
+    background-image: url('../../../assets/images/rajesh-rbg.png');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* background-color: #101010; */
+    border-radius: 50%; /* Makes the element circular */
+    z-index: 0; /* Adjusts the stacking order */
 }
+
 
 /* Position Node.js and Angular logos on top of the hero image */
 
