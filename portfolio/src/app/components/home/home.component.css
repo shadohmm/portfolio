@@ -100,13 +100,18 @@ p {
     position: absolute;
     top: 40%; /* Adjust this value to move the circle vertically */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-55%, -35%);
     width: 500px;
     height: 500px;
     background-color: #101010;
+    background-image: url(../../../assets/images/rajesh-rbg.png);
+    background-size: cover; /* Ensures the image covers the entire circle */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-position: center; /* Centers the image */
     border-radius: 50%;
     z-index: 0;
 }
+
 
 /* Position Node.js and Angular logos on top of the hero image */
 
