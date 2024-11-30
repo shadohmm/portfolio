@@ -32,4 +32,7 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, portfolio');
   });
+  it('for testing', ()=>{
+    expect(true).toBe(true)
+  });
 });

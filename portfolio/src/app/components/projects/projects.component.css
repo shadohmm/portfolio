@@ -66,8 +66,12 @@
   border-radius: 10px;
   display: flex; /* Use flexbox for side-by-side layout */
   gap: 20px; /* Add some space between the content and the image */  
+  margin-bottom: 20px; 
 }
 
+.project:not(:first-child) {
+  margin-top: 40px; /* Add extra spacing between projects, except for the first */
+}
 
 .project-content {
   flex: 2; /* Make content take up more space */
